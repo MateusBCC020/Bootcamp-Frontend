@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <ul id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
+
+    <h1 class="center">Entre em contato</h1>
+    <div class="container marginbotton">
+        <div>
+            <form>
+                <label for="nome" >Nome:</label>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
+                <label for="assunto">Assunto:</label>
+                <textarea name="assunto" id="assunto" cols="40" rows="7"></textarea>
+                <div id="txtEmail"></div>
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="marginleft">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5957871263745!2d-46.440942985433566!3d-23.54703648469001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6427fe3f5b23%3A0x54b863d343c81f8f!2sEtec%20Itaquera!5e0!3m2!1spt-BR!2sbr!4v1605920901890!5m2!1spt-BR!2sbr" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container-center">
+            <a href="https://www.instagram.com/mateus_s_ribeiro/?hl=pt-br">
+                <img class="icone" src="assets/img/instagram.png" alt="ícone do instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/mateus-ribeiro-b104a9120/">
+                <img class="icone" src="assets/img/linkedin.png" alt="ícone do linkedin">
+            </a>
+            <a href="https://github.com/MateusBCC020">
+                <img class="icone" src="assets/img/github.png" alt="ícone do github">
+            </a>
+        </div>
+       <p class="center"> Todos os direitos reservados: Mateus Ribeiro &copy</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+
+</body>
+</html>
